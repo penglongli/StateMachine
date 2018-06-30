@@ -1,0 +1,11 @@
+package constant;
+
+public enum OrderState {
+    CANCELED,
+    WAIT_PAY,
+    WAIT_SELLER_CONFIRM,
+    WAIT_SELLER_DELIVERING,
+    WAIT_BUYER_CONFIRMED,
+    WAIT_EVALUATION,
+    COMPLETED
+}
